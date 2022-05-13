@@ -6,6 +6,6 @@ workflows:
 jobs:
   runner-test:
     machine: true
-    resource_class: suculent/local
+    resource_class: suculent/macbook
     steps:
       - run: echo "Hi I'm on Runners!"
